@@ -46,7 +46,7 @@ Usage
 Typically, you'll want to add the default recipe to a role's run list, then
 add to the paths dictionary with locations to ignore.  Remember that paths
 use regex syntax, not glob syntax, so "all files in /opt/foo" is expressed
-as "/opt/foo/.*" not "/opt/foo/*".
+as `/opt/foo/.*`, not `/opt/foo/*`.
 
     {
       "name": "foo",
