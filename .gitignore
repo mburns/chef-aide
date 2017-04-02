@@ -19,3 +19,4 @@ _yardoc
 doc/
 .kitchen/
 .kitchen.local.yml
+vendor/
