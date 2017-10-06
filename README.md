@@ -41,6 +41,10 @@ how to handle them, pre-populated as in the default AIDE config file.
 * `node["aide"]["report_url"]` - Where to send the output.  Defaults to "stdout". 
 See the AIDE documentation for other options.
 
+* `node["aide"]["cron_mailto"]` - Where to send the cron jobs' output. Either a
+string or the value `nil`. Defaults to `nil` (i.e. mail cron job output to the
+user the cron job _runs as_).
+
 Usage
 =====
 
