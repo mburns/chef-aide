@@ -13,6 +13,7 @@ default['aide']['dbdir'] = '/var/lib/aide'
 default['aide']['gzip'] = 'yes'
 default['aide']['report_url'] = 'stdout'
 default['aide']['verbose'] = '5'
+default['aide']['cron_mailto'] = nil
 
 case node['platform_family']
 when 'rhel'
