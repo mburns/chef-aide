@@ -1,4 +1,4 @@
-# encoding: UTF-8
+
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
@@ -11,11 +11,11 @@ end
 
 group :unit do
   gem 'berkshelf', '~> 3'
-  gem 'chefspec', '~> 4'
   gem 'chef-sugar'
+  gem 'chefspec', '~> 4'
 end
 
 group :integration do
-  gem 'test-kitchen', '~> 1.4.0'
   gem 'kitchen-vagrant', '~> 0.18.0'
+  gem 'test-kitchen', '~> 1.4.0'
 end
