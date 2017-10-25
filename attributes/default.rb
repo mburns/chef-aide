@@ -65,7 +65,6 @@ default['aide']['paths'] = {
   '/etc/logrotate.d' => 'NORMAL',
   '/etc/resolv.conf' => 'DATAONLY',
   '/etc/nscd.conf' => 'NORMAL',
-  '/etc/securetty' => 'NORMAL',
   '/etc/profile' => 'NORMAL',
   '/etc/bashrc' => 'NORMAL',
   '/etc/bash_completion.d/' => 'NORMAL',
