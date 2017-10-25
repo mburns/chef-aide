@@ -69,7 +69,6 @@ default['aide']['paths'] = {
   '/etc/profile' => 'NORMAL',
   '/etc/bashrc' => 'NORMAL',
   '/etc/bash_completion.d/' => 'NORMAL',
-  '/etc/login.defs' => 'NORMAL',
   '/etc/zprofile' => 'NORMAL',
   '/etc/zshrc' => 'NORMAL',
   '/etc/zlogin' => 'NORMAL',
