@@ -6,7 +6,7 @@
 #
 
 node.default['aide']['paths'] = {
-  '/data/.*' => '!'
+  '/data/.*' => '!',
 }
 
 include_recipe 'aide'
