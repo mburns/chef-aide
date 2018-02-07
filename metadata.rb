@@ -4,7 +4,7 @@ long_description IO.read(File.join(File.dirname(__FILE__), 'README.md'))
 maintainer 'Michael Burns'
 maintainer_email 'michael@mirwin.net'
 license 'BSD-2-Clause'
-version '0.1.7'
+version '0.1.8'
 
 supports 'centos'
 supports 'ubuntu'
