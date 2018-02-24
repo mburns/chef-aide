@@ -6,7 +6,7 @@ source 'https://supermarket.chef.io'
 
 metadata
 
-cookbook 'cron', '> 1.3'
+cookbook 'cron', '~> 3.0'
 
 group :integration do
   cookbook 'test', path: 'test/fixtures/cookbooks/test'
