@@ -18,7 +18,7 @@ namespace :style do
 end
 
 desc 'Run all style checks'
-task style: %w(style:chef style:ruby)
+task style: %w[style:chef style:ruby]
 
 task :unit do
   sh "bundle exec 'rspec ./test/unit/spec/ --color --format documentation'"
@@ -35,7 +35,7 @@ end
 
 namespace :travis do
   desc 'Run tests on Travis'
-  task ci: %w(style unit)
+  task ci: %w[style unit]
 end
 
-task default: %w(style unit integration)
+task default: %w[style unit integration]
