@@ -20,6 +20,7 @@ end
 desc 'Run all style checks'
 task style: %w[style:chef style:ruby]
 
+desc 'Unit tests'
 task :unit do
   sh "bundle exec 'rspec ./test/unit/spec/ --color --format documentation'"
 end
