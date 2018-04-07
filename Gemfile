@@ -5,6 +5,7 @@
 source 'https://rubygems.org'
 
 group :style do
+  gem 'cookstyle'
   gem 'foodcritic'
   gem 'rubocop'
 end

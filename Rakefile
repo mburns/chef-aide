@@ -8,6 +8,7 @@
 require 'bundler/setup'
 
 namespace :style do
+  require 'cookstyle'
   require 'rubocop/rake_task'
   desc 'Run Ruby style checks'
   RuboCop::RakeTask.new(:ruby)
@@ -18,7 +19,7 @@ namespace :style do
 end
 
 desc 'Run all style checks'
-task style: %w[style:chef style:ruby]
+task style: %w(style:chef style:ruby)
 
 desc 'Unit tests'
 task :unit do
@@ -36,7 +37,7 @@ end
 
 namespace :travis do
   desc 'Run tests on Travis'
-  task ci: %w[style unit]
+  task ci: %w(style unit)
 end
 
-task default: %w[style unit integration]
+task default: %w(style unit integration)
